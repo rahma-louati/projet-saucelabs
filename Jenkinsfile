@@ -8,10 +8,14 @@ pipeline {
 
     environment {
         // Définir le JAVA_HOME si besoin
-        JAVA_HOME = 'C:\Program Files\Java\jdk-17'
-        // Définir le MAVEN_HOME si tu utilises Maven
-        MAVEN_HOME = 'C:\Users\user\Desktop\FormationSelenuim\apache-maven-3.9.11-bin\apache-maven-3.9.11'
+JAVA_HOME = 'C:\\Program Files\\Java\\jdk-17'
+
+// Définir le MAVEN_HOME si tu utilises Maven
+MAVEN_HOME = 'C:\\Users\\user\\Desktop\\FormationSelenuim\\apache-maven-3.9.11-bin\\apache-maven-3.9.11'
+
+// Définir le PATH avec les bons séparateurs
 PATH = "${JAVA_HOME}\\bin;${MAVEN_HOME}\\bin;${env.PATH}"
+
     }
 
     stages {
