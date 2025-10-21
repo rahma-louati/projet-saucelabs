@@ -3,7 +3,7 @@ pipeline {
 
     // Déclenchement automatique
     triggers {
-        cron('H 10 * * *') // Exemple : exécuter chaque jour à 16h (H = random hash)
+        cron('30 20 * * *') //exécute tous les jours à 20:30
     }
 
     environment {
