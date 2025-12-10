@@ -165,5 +165,3 @@ You can also integrate with **Allure Reports** or **Extent Reports** for enhance
 
 This project is licensed under the MIT License.
 
-```
-```
