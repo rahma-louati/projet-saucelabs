@@ -1,1 +1,21 @@
+# Maven build directory
 /target/
+
+
+
+# Logs
+.logs/
+
+# Eclipse IDE settings
+.settings/
+.classpath
+.project
+
+# Maven wrapper
+.mvn/
+
+# Properties files
+*.properties
+
+# Test results (TestNG / others)
+test-output/
